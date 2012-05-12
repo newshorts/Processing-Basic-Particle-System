@@ -34,7 +34,6 @@ void draw() {
     p.run();
     p.display();
   }
-  
 }
 
 class Particle {
