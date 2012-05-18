@@ -12,3 +12,7 @@ INSTALLATION
 To install, drag the "particleDefault" folder into your Processing sketchbook.
 
 Make sure you restart Processing, after you install so it can find the folder.
+
+NOTE: 	If you want to use "particleDefaultKinect" you must install daniel shiffman's "openKinect" for processing library. Find out more here: http://www.shiffman.net/p5/kinect/
+	Follow the install instructions, then start this sketch up and it should work. If you installed correctly, this sketch will automatically include everything you need to
+	make it run.
