@@ -12,7 +12,7 @@ class Particle {
     xspeed = random(.001, 10);
     yspeed = random(.001, 10);
     r = random(1, maxSize);
-    c = color(random(50, 254), random(50, 254), random(50, 254), 75);
+    c = color(random(50, 254), random(50, 254), random(50, 254), 90);
   }
   
   void run() {
