@@ -9,7 +9,7 @@ PARTICLE EXPERIMENTS
 PImage img;
 
 int particleCount = 2000;
-int maxSize = 20;
+int maxSize = 5;
 ArrayList particles;
 PVector m;
 
@@ -48,4 +48,5 @@ void draw() {
     p.run(color(r,g,b,75));
     p.display();
   }
+
 }
