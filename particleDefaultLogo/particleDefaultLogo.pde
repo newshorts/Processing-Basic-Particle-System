@@ -8,15 +8,15 @@ PARTICLE EXPERIMENTS
 
 PImage img;
 
-int particleCount = 2000;
+int particleCount = 1000;
 int maxSize = 5;
 ArrayList particles;
 PVector m;
 
 void setup() {
-  size(1600, 1200);
+  size(512, 512);
   
-  img = loadImage("logo_bw.jpg");
+  img = loadImage("logo_512.jpg");
   
   particles = new ArrayList();
   
