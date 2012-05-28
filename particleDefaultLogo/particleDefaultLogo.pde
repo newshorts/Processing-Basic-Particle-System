@@ -16,7 +16,7 @@ PVector m;
 void setup() {
   size(512, 512);
   
-  img = loadImage("logo_512.jpg");
+  img = loadImage("logo_bw_512.jpg");
   
   particles = new ArrayList();
   

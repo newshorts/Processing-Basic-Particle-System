@@ -7,8 +7,8 @@ class Particle {
   PVector p;
 
   Particle() {
-    x = random(2, (img.width));
-    y = random(2, (img.height));
+    x = random(2, (img.width-1));
+    y = random(2, (img.height-1));
     xspeed = int(random(.001, 10));
     yspeed = int(random(.001, 10));
     r = random(1, maxSize);
