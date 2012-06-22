@@ -16,7 +16,7 @@ PVector m;
 void setup() {
   size(512, 512);
   
-  img = loadImage("logo_goog_512.jpg");
+  img = loadImage("logo_goog_512.png");
   
   particles = new ArrayList();
   
@@ -24,7 +24,7 @@ void setup() {
     particles.add(new Particle());
   }
   
-  background(0);
+  background(0,0);
   noStroke();
   smooth();
   
