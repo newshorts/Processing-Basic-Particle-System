@@ -3,13 +3,18 @@
 Mike Newell
 Basic Particle System Default Processing File
 
-This .pde was created to be a default particle system setup for processing. It initiates 200 particles with basic circular physics around the mouse. It's meant to be something to build upon...
+This repo contains several very simple particle systems in processing. It's intended for you to expand upon...
 
 ###
 
 INSTALLATION
 
-To install, drag the "particleDefault" folder into your Processing sketchbook.
+To install, name a folder in your sketchbook "particleSystems". Then drag the contents of this repo into the folder. Or feel free to drag each sketch individually into your sketbook.
+
+Dependencies (some of these sketch use libraries):
+
+	particleTriangulate --> Triangulate Library (Available here: http://wiki.processing.org/images/f/f7/Triangulate-20100704.zip) (Example here: http://wiki.processing.org/w/Triangulation)
+
 
 Make sure you restart Processing, after you install so it can find the folder.
 
